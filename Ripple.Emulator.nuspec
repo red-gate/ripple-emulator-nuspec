@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Ripple.Emulator</id>
+        <version>0.9.17</version>
+        <title>Ripple Emulator</title>
+        <authors>Apache Foundation</authors>
+        <owners>Apache Foundation</owners>
+        <licenseUrl>https://github.com/apache/incubator-ripple</licenseUrl>
+        <projectUrl>https://github.com/apache/incubator-ripple</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>https://github.com/apache/incubator-ripple</description>
+        <summary>https://github.com/apache/incubator-ripple</summary>
+    </metadata>
+    <files>
+	<file src="Ripple\**\*.*" target="content\Ripple" />
+        <file src="tools\install.ps1" target="tools\install.ps1" />
+    </files>
+</package>
